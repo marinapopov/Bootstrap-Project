@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Kulim Park', sans-serif;
+	color: #505962;
+}
+
+/*Navigation*/
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+
+}
+
+h1{
+	margin-top: 20%;
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 70px;
+	color: black;
+}
