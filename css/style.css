@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Long+Cang&display=swap');
 
 body {
 	overflow-x: hidden;
@@ -12,13 +13,72 @@ body {
 .navbar {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: .9rem;
+	font-size: .9rem; /*(1rem=16px)*/
+	letter-spacing: .2rem;
+	background: rgba(0, 0, 0, 0.4)!important;
+}
 
+.navbar-brand img {
+	height: 2.4rem;
+	width: 100px;
+}
+
+.navbar-nav li {
+	padding-right: .7rem; /*(this spaces out the nav links)*/
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: pink;
 }
 
 h1{
-	margin-top: 20%;
-	font-family: 'Ma Shan Zheng', cursive;
-	font-size: 70px;
-	color: black;
+	margin-top: 15%;
+/*	font-family: 'Ma Shan Zheng', cursive;*/
+	font-family: 'Long Cang', cursive;
+	font-size: 7rem;
+	color: white;
+	letter-spacing: .3rem;
 }
+
+/*Landing Page*/
+
+/*.home-inner {
+	background-image: url(img/background.jpg);
+}*/
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 6%;
+	z-index: 1;
+	color: white;
+}
+
+h3 {
+	padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+	border-width: medium;
+	font-size: 1.1rem;
+}
+
+h2 {
+	margin-top: 5%;
+	font-size: 2rem;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
