@@ -62,10 +62,6 @@ h1{
 
 /*Landing Page*/
 
-/*.home-inner {
-	background-image: url(img/background.jpg);
-	}*/
-
 .caption {
 	width: 100%;
 	max-width: 100%;
@@ -104,7 +100,7 @@ h2 {
 	column-width: 33%; 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 	.gallery {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
@@ -120,6 +116,9 @@ h2 {
 .jumbotron {
 	margin-top: 2rem;
 	border-radius: 0;
+	min-height: 200px;
+	margin-bottom: 0;
+	padding: 3rem 0 3.5rem;
 }
 
 h2.heading {
@@ -128,6 +127,7 @@ h2.heading {
 	text-align: center;
 	margin-bottom: 1.9rem;
 	letter-spacing: .3rem;
+	margin-top: 2%;
 }
 
 .heading-underline {
@@ -153,9 +153,47 @@ img {
 	width: 29%;
 	float: left;
 	margin: 2%;
-	/*margin-bottom: -4px;*/
+	margin-bottom: -4px;
 }
 
-img:hover {
+.one-third:hover {
 	opacity: .8;
 }
+
+h4 {
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.one-third {
+		width: 85%;
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.one-third {
+		width: 98%;
+		margin: 2%;
+	}
+}
+ 
+ /*Reviews Section*/
+.clients img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+blockquote .svg-inline--fa{  /*(that's for the quot. mark)*/
+	color:pink;
+	margin: 1rem;
+}
+
+.clients hr {
+	border-top: .05rem solid pink;
+}
+
+/*Contact Section*/
+ p{
+
+ }
