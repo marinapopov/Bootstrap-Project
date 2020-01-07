@@ -197,6 +197,7 @@ blockquote .svg-inline--fa{  /*(that's for the quot. mark)*/
 .social a {
 	font-size: 3.5em; /*(1em=12pt)*/
 	padding: 3rem;
+
 } 
 
 .fa-facebook {
@@ -217,4 +218,37 @@ blockquote .svg-inline--fa{  /*(that's for the quot. mark)*/
 
 .fa-youtube {
 	color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover, 
+.fa-instagram:hover,
+.fa-vk:hover,
+.fa-youtube:hover {
+	color: #d5d5d5;
+}
+
+/*.container-fluid {
+	background-color: lightgrey;
+}*/
+
+footer {
+	margin-top: 20px;
+	background-color: #5b5e61;
+	color: white;
+	/*padding-top: 2rem;*/
+}
+
+hr.light {
+	border-top: 1px solid white;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer img {
+	text-align: center;
+}
+.footer-copyright {
+	margin-left: 35rem;
 }
