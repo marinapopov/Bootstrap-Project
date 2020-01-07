@@ -194,6 +194,27 @@ blockquote .svg-inline--fa{  /*(that's for the quot. mark)*/
 }
 
 /*Contact Section*/
- p{
+.social a {
+	font-size: 3.5em; /*(1em=12pt)*/
+	padding: 3rem;
+} 
 
- }
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-twitter {
+	color: #00acde;
+}
+
+.fa-instagram {
+	color: #3f729b;
+}
+
+.fa-vk {
+	color: #4c75a3;
+}
+
+.fa-youtube {
+	color: #bb0000;
+}
