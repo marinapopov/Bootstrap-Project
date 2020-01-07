@@ -233,22 +233,23 @@ blockquote .svg-inline--fa{  /*(that's for the quot. mark)*/
 }*/
 
 footer {
-	margin-top: 20px;
+	margin-top: 3.8rem;
 	background-color: #5b5e61;
 	color: white;
+	padding-top: 2rem;
 	/*padding-top: 2rem;*/
 }
 
 hr.light {
 	border-top: 1px solid white;
 	width: 75%;
-	margin-top: .8rem;
-	margin-bottom: 1rem;
+	/*margin-top: .8rem;
+	margin-bottom: 1rem;*/
+	margin: auto;
+	padding: .5rem 0 0 .5rem;
 }
 
-footer img {
-	text-align: center;
-}
 .footer-copyright {
-	margin-left: 35rem;
+	font-size: 20px;
+	margin:auto;
 }
